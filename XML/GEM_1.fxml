@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2872.0" prefWidth="1292.0" style="-fx-background-color: ffffff;" styleClass="dark-background" stylesheets="@../../../css/style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gem_1.GEMController">
+   <top>
+      <HBox prefHeight="110.0" prefWidth="1292.0" spacing="10.0" styleClass="border-bottom" stylesheets="@../../../css/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="340.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/logo.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="58.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/download%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#switchToLogin" prefHeight="25.0" prefWidth="57.0" styleClass="dark-background" stylesheets="@../../../css/style.css" text="login" textFill="#db47099e">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="58.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/download%20(3).png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" styleClass="dark-background" stylesheets="@../../../css/style.css" text="new" textFill="#db47099e">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="58.0">
+               <children>
+                  <ImageView fitHeight="57.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/chatbot%20(6).png" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" prefHeight="27.0" prefWidth="69.0" styleClass="dark-background" stylesheets="@../../../css/style.css" text="chatbot" textFill="#db47099e">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="123.0" prefWidth="119.0" />
+            <VBox prefHeight="123.0" prefWidth="119.0" />
+            <VBox prefHeight="123.0" prefWidth="119.0" />
+            <VBox prefHeight="123.0" prefWidth="119.0" />
+            <VBox prefHeight="123.0" prefWidth="119.0" />
+            <VBox prefHeight="37.0" prefWidth="119.0">
+               <children>
+                  <ImageView fitHeight="62.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/greet%20sphinx%20(5).png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label prefHeight="30.0" prefWidth="119.0" text="100,000" textFill="#db4709" />
+                  <Label prefHeight="12.0" prefWidth="119.0" text="Artifacts" textFill="#db4709">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane prefHeight="596.0" prefWidth="1292.0" style="-fx-background-color: #ff7f00;" styleClass="dark-background" stylesheets="@../../../css/style.css">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2724.0" prefWidth="1290.0">
+                     <children>
+                        <VBox prefHeight="2812.0" prefWidth="1300.0">
+                           <children>
+                              <HBox prefHeight="248.0" prefWidth="1300.0">
+                                 <children>
+                                    <Pane accessibleRole="SCROLL_PANE" prefHeight="314.0" prefWidth="1308.0">
+                                       <children>
+                                          <ImageView fitHeight="414.0" fitWidth="1290.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/12-new.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-2.0" layoutY="-2.0" prefHeight="250.0" prefWidth="1306.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <Label prefHeight="340.0" prefWidth="880.0" text="   Welcom to the Grand Egyptian museum " textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="36.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets top="80.0" />
+                                                   </padding>
+                                                </Label>
+                                                <Button mnemonicParsing="false" prefHeight="63.0" prefWidth="156.0" style="-fx-background-color: #ff7f00;" styleClass="bottom" stylesheets="@../../../css/style.css" text="new" textFill="WHITE">
+                                                   <HBox.margin>
+                                                      <Insets left="50.0" top="140.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="24.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="68.0" prefWidth="1300.0" style="-fx-background-color: #ff7f00;" styleClass="border-bottom" stylesheets="@../../../css/style.css" />
+                              <HBox prefHeight="220.0" prefWidth="1262.0" style="-fx-background-color: #ff7f00;" styleClass="border-bottom" stylesheets="@../../../css/style.css">
+                                 <children>
+                                    <Pane prefHeight="220.0" prefWidth="147.0" />
+                                    <Pane prefHeight="220.0" prefWidth="436.0" styleClass="shadow" stylesheets="@../../../css/style.css">
+                                       <children>
+                                          <ImageView fitHeight="319.0" fitWidth="438.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/1st(3).jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutY="1.0" prefHeight="219.0" prefWidth="438.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox prefHeight="187.0" prefWidth="202.0">
+                                                   <children>
+                                                      <VBox alignment="BOTTOM_CENTER" prefHeight="207.0" prefWidth="196.0">
+                                                         <children>
+                                                            <Label prefHeight="35.0" prefWidth="104.0" text="Location" textFill="WHITE">
+                                                               <font>
+                                                                  <Font name="System Bold Italic" size="24.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <Hyperlink onAction="#GoToLocation" text="show" textFill="WHITE">
+                                                         <VBox.margin>
+                                                            <Insets left="60.0" />
+                                                         </VBox.margin>
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="18.0" />
+                                                         </font>
+                                                      </Hyperlink>
+                                                   </children>
+                                                </VBox>
+                                                <ImageView fitHeight="96.0" fitWidth="90.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../imgs/loc1.png" />
+                                                   </image>
+                                                   <HBox.margin>
+                                                      <Insets left="100.0" />
+                                                   </HBox.margin>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="220.0" prefWidth="120.0" />
+                                    <Pane prefHeight="236.0" prefWidth="444.0" styleClass="shadow" stylesheets="@../../../css/style.css">
+                                       <children>
+                                          <ImageView fitHeight="251.0" fitWidth="444.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/4.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-6.0" layoutY="1.0" prefHeight="226.0" prefWidth="450.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="170.0" prefWidth="232.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="104.0" text="Opening" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToOpening" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                         <VBox.margin>
+                                                            <Insets bottom="10.0" />
+                                                         </VBox.margin>
+                                                      </Button>
+                                                   </children>
+                                                </VBox>
+                                                <ImageView fitHeight="96.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../imgs/open2.png" />
+                                                   </image>
+                                                   <HBox.margin>
+                                                      <Insets left="70.0" />
+                                                   </HBox.margin>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                              <HBox prefHeight="68.0" prefWidth="1300.0" style="-fx-background-color: #ff7f00;" />
+                              <HBox prefHeight="194.0" prefWidth="1300.0">
+                                 <children>
+                                    <Pane accessibleRole="SCROLL_PANE" prefHeight="186.0" prefWidth="1300.0">
+                                       <children>
+                                          <ImageView fitHeight="404.0" fitWidth="1290.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/cover2.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-2.0" layoutY="-2.0" prefHeight="198.0" prefWidth="1302.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <Label prefHeight="242.0" prefWidth="880.0" text="   variouse workshops" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="36.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets top="40.0" />
+                                                   </padding>
+                                                </Label>
+                                                <Button mnemonicParsing="false" onAction="#switchToWorkShops" prefHeight="63.0" prefWidth="156.0" style="-fx-background-color: #ff7f00;" styleClass="bottom" stylesheets="@../../../css/style.css" text="workshops" textFill="WHITE">
+                                                   <HBox.margin>
+                                                      <Insets left="50.0" top="90.0" />
+                                                   </HBox.margin>
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="24.0" />
+                                                   </font>
+                                                </Button>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="138.0" prefWidth="1300.0" style="-fx-background-color: #ff7f00;">
+                                 <children>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="At the GEM" wrappingWidth="356.13671875">
+                                       <font>
+                                          <Font name="System Bold Italic" size="64.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="100.0" top="30.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <Label prefHeight="111.0" prefWidth="512.0" />
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="342.0" prefWidth="1300.0" style="-fx-background-color: #ff7f00;" styleClass="border-bottom" stylesheets="@../../../css/style.css">
+                                 <children>
+                                    <Pane prefHeight="340.0" prefWidth="79.0" />
+                                    <Pane prefHeight="342.0" prefWidth="340.0" stylesheets="@../../../css/style.css">
+                                       <children>
+                                          <ImageView fitHeight="342.0" fitWidth="342.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/3rd1.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-16.0" layoutY="1.0" prefHeight="348.0" prefWidth="364.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="348.0" prefWidth="363.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="208.0" text="Educational wing" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToEducationalWing" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="342.0" prefWidth="65.0" />
+                                    <Pane prefHeight="342.0" prefWidth="342.0">
+                                       <children>
+                                          <ImageView fitHeight="342.0" fitWidth="342.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/3rd2.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutY="1.0" prefHeight="348.0" prefWidth="348.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="348.0" prefWidth="344.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="228.0" text="Restoration center" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToRestorationCenter" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="342.0" prefWidth="69.0" style="-fx-background-color: #ff7f00;" />
+                                    <Pane prefHeight="340.0" prefWidth="342.0">
+                                       <children>
+                                          <ImageView fitHeight="351.0" fitWidth="349.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/3rd3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-6.0" layoutY="-11.0" prefHeight="362.0" prefWidth="359.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="344.0" prefWidth="347.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="229.0" text="Statu of ramses ||" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToRamsesStatu" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                              <HBox prefHeight="68.0" prefWidth="1300.0" style="-fx-background-color: #ff7f00;" stylesheets="@../../../css/style.css">
+                                 <styleClass>
+                                    <String fx:value="border-bottom" />
+                                    <String fx:value="dark-background" />
+                                 </styleClass></HBox>
+                              <HBox alignment="CENTER" prefHeight="342.0" prefWidth="1258.0" style="-fx-background-color: #ff7f00;" styleClass="border-bottom" stylesheets="@../../../css/style.css">
+                                 <children>
+                                    <Pane prefHeight="340.0" prefWidth="15.0" />
+                                    <Pane prefHeight="342.0" prefWidth="342.0">
+                                       <children>
+                                          <ImageView fitHeight="342.0" fitWidth="342.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/tut1.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-10.0" layoutY="1.0" prefHeight="348.0" prefWidth="358.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="348.0" prefWidth="345.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="282.0" text="Tutankhamuns treasures" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchTotutankhamunsTreasure" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="342.0" prefWidth="65.0" />
+                                    <Pane prefHeight="342.0" prefWidth="342.0">
+                                       <children>
+                                          <ImageView fitHeight="342.0" fitWidth="342.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/4r2.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutY="1.0" prefHeight="348.0" prefWidth="348.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="348.0" prefWidth="344.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="250.0" text="Exhibition technology" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToExhibitionTechnology" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                    <Pane prefHeight="342.0" prefWidth="69.0" />
+                                    <Pane prefHeight="342.0" prefWidth="342.0">
+                                       <children>
+                                          <ImageView fitHeight="342.0" fitWidth="342.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/4r3.jpg" />
+                                             </image>
+                                          </ImageView>
+                                          <HBox layoutX="-10.0" layoutY="1.0" prefHeight="348.0" prefWidth="358.0" styleClass="gradient" stylesheets="@../../../css/style.css">
+                                             <children>
+                                                <VBox alignment="BOTTOM_CENTER" prefHeight="348.0" prefWidth="340.0">
+                                                   <children>
+                                                      <Label prefHeight="35.0" prefWidth="234.0" text="Artifact collection" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold Italic" size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Button mnemonicParsing="false" onAction="#switchToArtifactCollection" prefHeight="41.0" prefWidth="72.0" styleClass="gradient" stylesheets="@../../../css/style.css" text="show" textFill="WHITE">
+                                                         <opaqueInsets>
+                                                            <Insets bottom="5.0" />
+                                                         </opaqueInsets>
+                                                         <font>
+                                                            <Font name="Bell MT Bold" size="18.0" />
+                                                         </font>
+                                                      </Button>
+                                                   </children>
+                                                   <opaqueInsets>
+                                                      <Insets />
+                                                   </opaqueInsets>
+                                                   <padding>
+                                                      <Insets bottom="8.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                              <VBox alignment="BOTTOM_CENTER" prefHeight="974.0" prefWidth="1300.0" style="-fx-background-color: ff7f00;">
+                                 <children>
+                                    <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="48.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/time1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="opening Hours" wrappingWidth="456.13671875">
+                                             <font>
+                                                <Font name="System Bold Italic" size="36.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Sunday to Thursday: 9 AM - 6 PM" wrappingWidth="387.83984375">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last ticket purchase: 4 PM" wrappingWidth="386.30078125">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Friday and saturday: 9 AM - 10 PM">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last ticket purchase: 7:30 PM" wrappingWidth="388.4609375">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="388.4609375">
+                                       <font>
+                                          <Font name="System Bold Italic" size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Gallery" wrappingWidth="126.404296875">
+                                       <font>
+                                          <Font name="System Bold Italic" size="36.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="40.0" />
+                                       </VBox.margin>
+                                    </Text>
+                                    <HBox alignment="CENTER" prefHeight="416.0" prefWidth="1300.0">
+                                       <children>
+                                          <Pagination fx:id="pagination" maxPageIndicatorCount="5" prefHeight="400.0" prefWidth="800.0" styleClass="page" stylesheets="@../../../css/style.css" />
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="119.0" prefWidth="1300.0" style="-fx-background-color: ff7f00; -fx-border-color: ffffff;">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Us: " wrappingWidth="206.13671875">
+                                             <font>
+                                                <Font name="System Bold Italic" size="36.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="10.0" top="30.0" />
+                                             </HBox.margin>
+                                          </Text>
+                                          <VBox prefHeight="200.0" prefWidth="100.0">
+                                             <children>
+                                                <ImageView fitHeight="72.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../imgs/insta2.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Hyperlink onAction="#instagram" prefHeight="23.0" prefWidth="89.0" style="-fx-background-image: C:\Users\sdeek\IdeaProjects\GEM_1\src\main\resources\imgs;" text=" Link" textFill="#222222">
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="24.0" />
+                                                   </font>
+                                                </Hyperlink>
+                                             </children>
+                                             <HBox.margin>
+                                                <Insets left="10.0" />
+                                             </HBox.margin>
+                                          </VBox>
+                                          <VBox prefHeight="200.0" prefWidth="100.0">
+                                             <children>
+                                                <ImageView fitHeight="80.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../imgs/face1.png" />
+                                                   </image>
+                                                </ImageView>
+                                                <Hyperlink onAction="#faceBook" prefHeight="23.0" prefWidth="89.0" style="-fx-background-image: C:\Users\sdeek\IdeaProjects\GEM_1\src\main\resources\imgs;" text=" Link" textFill="#222222">
+                                                   <font>
+                                                      <Font name="System Bold Italic" size="24.0" />
+                                                   </font>
+                                                </Hyperlink>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="200.0" prefWidth="100.0" />
+                                          <ImageView fitHeight="70.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/mail.png" />
+                                             </image>
+                                          </ImageView>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tourism_info@easwaaqmisr.com" wrappingWidth="386.13671875">
+                                             <font>
+                                                <Font name="System Bold Italic" size="24.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets top="20.0" />
+                                             </HBox.margin>
+                                          </Text>
+                                          <ImageView fitHeight="54.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../imgs/call1.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets top="10.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="+202353134" wrappingWidth="166.13671875">
+                                             <font>
+                                                <Font name="System Bold Italic" size="24.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets top="20.0" />
+                                             </HBox.margin>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

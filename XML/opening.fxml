@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gem_1.GEMController">
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="1302.0" style="-fx-background-color: ffffff;">
+         <children>
+            <HBox prefHeight="122.0" prefWidth="1319.0" stylesheets="@../../../css/style.css">
+               <children>
+                  <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/logo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button mnemonicParsing="false" onAction="#switchToHome" style="-fx-background-color: #ff7f00;" styleClass="bottom" stylesheets="@../../../css/style.css" text="Hom">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="500.0" top="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+               <styleClass>
+                  <String fx:value="border-bottom" />
+                  <String fx:value="dark-background" />
+               </styleClass>
+            </HBox>
+            <VBox layoutY="123.0" prefHeight="318.0" prefWidth="771.0">
+               <children>
+                  <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The Gand Egyption museum(GEM) is expected to officially open its doors before the end of 2024. Although an exact date has not been announced, final preparations are underway, and the world has long awaited this significant event. Tje museum is anticipated to be the largest of its kind dedicated to a single civilization, housing over 100,000 artifacts, including the complete treasures of king tutankhamun, which will be display together for the first time in one location " wrappingWidth="764.13671875">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="150.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets left="100.0" top="30.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="946.0" layoutY="214.0" prefHeight="326.0" prefWidth="323.0">
+               <children>
+                  <ImageView fitHeight="223.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../imgs/greet%20sphinx%20(5).png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="20.0" top="60.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+               <opaqueInsets>
+                  <Insets left="20.0" top="20.0" />
+               </opaqueInsets>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

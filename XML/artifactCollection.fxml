@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1302.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gem_1.GEMController">
+   <children>
+      <HBox prefHeight="122.0" prefWidth="1311.0" stylesheets="@../../../css/style.css">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imgs/logo.jpg" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#switchToHome" style="-fx-background-color: #ff7f00;" styleClass="bottom" stylesheets="@../../../css/style.css" text="Hom">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="500.0" top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+         <styleClass>
+            <String fx:value="border-bottom" />
+            <String fx:value="dark-background" />
+         </styleClass>
+      </HBox>
+      <VBox layoutY="122.0" prefHeight="256.0" prefWidth="771.0">
+         <children>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The artifact collection in the Grand Egyptian Museum (GEM) is one of the most comprehensive and significant in the world, dedicated exclusively to the artifacts of ancient Egypt. With over 100,000 pieces, the museum’s collection spans the entirety of ancient Egyptian history, from the Prehistoric Period through the Greco-Roman era, showcasing the rich and diverse heritage of this ancient civilization." wrappingWidth="820.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="30.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1-Thematic Galleries:" wrappingWidth="234.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The Grand Egyptian Museum’s exhibits are organized thematically and chronologically, offering visitors a journey through Egypt’s history. The thematic galleries focus on different aspects of life in ancient Egypt, such as religion, daily life, and the pharaohs, providing context and deeper understanding of the artifacts" wrappingWidth="826.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2-Preservation and Conservation:" wrappingWidth="234.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The museum also features advanced conservation facilities where artifacts are meticulously restored and preserved. This ensures that the items are not only displayed in their best possible condition but are also preserved for future generations." wrappingWidth="705.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3-Educational and Cultural Impact:" wrappingWidth="234.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The GEM’s collection is not just about displaying artifacts; it also serves as an educational resource. The museum provides detailed information and context for each item, helping visitors to understand the significance of what they are seeing. Through these artifacts, the GEM offers a comprehensive view of ancient Egyptian civilization, its achievements, and its lasting legacy." wrappingWidth="743.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4-Global Significance:" wrappingWidth="234.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="With its vast and varied collection, the Grand Egyptian Museum is poised to become a major center for the study and appreciation of ancient Egyptian history. It provides scholars, historians, and the general public with unprecedented access to some of the most important artifacts ever discovered, making it a key institution in the global cultural landscape." wrappingWidth="819.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5-Architectural Elements and Large Statues:" wrappingWidth="310.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="The GEM is designed to accommodate large-scale artifacts, such as colossal statues and architectural elements. Notable examples include the massive statue of Ramses II that greets visitors in the museum’s grand entrance hall, and the reconstructed pillars and gates from ancient temples." wrappingWidth="827.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6-Funerary Artifacts:" wrappingWidth="310.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Text>
+            <Text fill="#ff7f00" strokeType="OUTSIDE" strokeWidth="0.0" text="A significant portion of the museum’s collection is dedicated to funerary artifacts, which include coffins, canopic jars, ushabti figures, and tomb models. These items provide a detailed look at ancient Egyptian beliefs about the afterlife and the practices surrounding death and burial." wrappingWidth="813.13671875">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <padding>
+            <Insets left="100.0" top="60.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="940.0" layoutY="230.0" prefHeight="326.0" prefWidth="323.0">
+         <children>
+            <ImageView fitHeight="223.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imgs/greet%20sphinx%20(5).png" />
+               </image>
+               <VBox.margin>
+                  <Insets left="20.0" top="60.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets left="20.0" top="20.0" />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
